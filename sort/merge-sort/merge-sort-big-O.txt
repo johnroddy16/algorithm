@@ -1,0 +1,32 @@
+# big 0 4 merge sort:
+
+# space complexity:
+
+nums = [4, 2, 6, 8, 7, 5, 1, 3]
+
+with merge sort we take a list and split in half to create left and right 
+
+with nums we start with one list and merge sort creates 8 new lists of 1 item each 
+
+number of items stored in memory has doubled 
+
+
+# space complexity big O:
+O(n)
+
+
+# time complexity:
+
+to break nums down into lists of len 1 we take 3 steps, we cut in half 3 times 
+that would be O(log n) for breaking the list down
+however we still need to run these lists thru the helper function merge
+
+# time complexity big O:
+O(n log n)  O of n times log n 
+
+# bubble sort, selection sort, insertion sort are all O(n**2)
+take up less space (space complexity) since they sort in place and do not create new lists 
+
+# merge sort is the fastest sorting algorithm that can sort different types of data
+
+# there are efficient algorithms that can sort numbers only that will run faster but cannot do other types of data 

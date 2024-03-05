@@ -1,0 +1,2 @@
+# adjancency matrix:
+
